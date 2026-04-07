@@ -37,40 +37,30 @@ Avaliar a performance de modelos de linguagem no domínio jurídico, com base em
 ---
 
 ## 📂 Estrutura do Projeto
+
+```bash
 ├── data/
-│ ├── raw/ # Dados originais (datasets da OAB)
-│ ├── processed/ # Dados curados e anotados
+│   ├── raw/                # Dados originais (datasets da OAB)
+│   ├── processed/          # Dados curados e anotados
 │
 ├── notebooks/
-│ ├── inference.ipynb # Execução dos modelos
-│ ├── evaluation.ipynb # Cálculo de métricas
+│   ├── inference.ipynb     # Execução dos modelos
+│   ├── evaluation.ipynb    # Cálculo de métricas
 │
 ├── src/
-│ ├── preprocessing.py # Tratamento dos dados
-│ ├── inference.py # Interface com LLMs
-│ ├── metrics.py # Implementação das métricas
+│   ├── preprocessing.py    # Tratamento dos dados
+│   ├── inference.py        # Interface com LLMs
+│   ├── metrics.py          # Implementação das métricas
 │
 ├── results/
-│ ├── outputs/ # Respostas geradas pelos modelos
-│ ├── analysis/ # Análises e comparações
+│   ├── outputs/            # Respostas geradas pelos modelos
+│   ├── analysis/           # Análises e comparações
 │
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
-
-## 📊 Dataset
-
-Foram utilizados dois conjuntos principais de dados:
-
-- **Questões abertas**
-  - Fonte: OAB Bench
-  - Característica: respostas discursivas
-
-- **Questões fechadas**
-  - Fonte: OAB Exams
-  - Característica: múltipla escolha
 
 ### Curadoria
 
